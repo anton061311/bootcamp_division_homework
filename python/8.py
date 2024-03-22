@@ -5,7 +5,11 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    n = int(input())
+    sum_if_integers = sum(range(1,n+1))
+    factorial_result = factorial(n)
+    print(sum_of_intergers)
+    print(factorial_result)
     return
 
 

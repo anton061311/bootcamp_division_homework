@@ -5,8 +5,12 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
-    return
+    letter = ['a','e','i','o','u']
+    if letter.lower() in ['a','e','i','o','u']:
+        print("O")
+    else:
+        print("X")
+        return
 
 
 if __name__ == '__main__':

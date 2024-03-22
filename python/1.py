@@ -5,9 +5,10 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    number = int(input())
+    reversed_number = int(str(number)[::-1])
+    print("Reversed number:", reversed_number)
     return
-
 
 if __name__ == '__main__':
     main()
