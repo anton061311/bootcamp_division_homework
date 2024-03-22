@@ -4,11 +4,12 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
-    number = int(input())
-    reversed_number = int(str(number)[::-1])
-    print("Reversed number:", reversed_number)
-    return
+    try:
+        number = int(input())
+        reversed_number = int(str(number)[::-1])
+        print(reversed_number)
+    except ValueError:
+        print("Please enter a valid integer.")
 
 if __name__ == '__main__':
     main()

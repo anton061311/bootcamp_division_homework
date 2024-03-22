@@ -4,17 +4,13 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
-    age = int(input())
-    if age >61 :
+    age = int(input()) 
+    if age > 61:
         print("DISCOUNT")
     elif age == 61:
         print("DISCOUNT\nBOARD")
     else:
-        print("DISCOUNT")
-    return
-
-
+        print("BOARD")
 
 if __name__ == '__main__':
     main()
