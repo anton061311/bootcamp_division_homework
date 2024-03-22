@@ -5,7 +5,7 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-    letter = ['a','e','i','o','u']
+    letter = input("")
     if letter.lower() in ['a','e','i','o','u']:
         print("O")
     else:

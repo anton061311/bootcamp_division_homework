@@ -7,7 +7,7 @@ def main():
     # 이곳에 코드를 작성해주세요!
     age = int(input())
     height = int(input())
-    if age>=14 or height>=140 :
+    if age>=14 and height>=140 :
         print("X")
     else:
         print("O")
