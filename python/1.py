@@ -10,6 +10,7 @@ def main():
         print(reversed_number)
     except ValueError:
         print("Please enter a valid integer.")
+        #하지만 1번 문제는 커밋과 푸시를 위해 일단 주석 하나를 달고 차이를 확인해보자.
 
 if __name__ == '__main__':
     main()
