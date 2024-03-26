@@ -11,6 +11,6 @@ def main():
         print("DISCOUNT\nBOARD")
     else:
         print("BOARD")
-
+    # 2번의 경우 웹을 통한vs코드로 접속하여 깃허브 커밋, 스테이징, 푸쉬가 되는지 확인하기 위함이다.
 if __name__ == '__main__':
     main()
