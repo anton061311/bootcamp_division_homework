@@ -7,6 +7,15 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    char let;
+    scanf("%c", &let);
+
+    if(let == 'a' || let == 'e' || let == 'i' || let == 'o' || let == 'u'){
+        printf("O");
+    }
+    else{
+        printf("X");
+    }
 
     return 0;
 }

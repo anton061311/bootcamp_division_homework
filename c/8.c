@@ -5,8 +5,26 @@
 
 #include <stdio.h>
 
+int res1(int n){
+    return n * (n+1) / 2;
+}
+
+int res2(int n){
+    int mul = 1;
+    for(int i = 1; i <= n; i++){
+        mul *= i;
+    }
+    return mul;
+}
+
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int n;
+    scanf("%d", &n);
+    int sum = res1(n);
+    int mul = res2(n);
+
+    printf("%d\n%d\n", sum, mul);
 
     return 0;
 }

@@ -7,6 +7,13 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int num = 0;
+    scanf("%d",&num);
+    int num_1 = num / 100;
+    int num_2 = (num % 100) / 10;
+    int num_3 = num % 10;
+
+    printf("%d%d%d",num_3,num_2,num_1);
 
     return 0;
 }
